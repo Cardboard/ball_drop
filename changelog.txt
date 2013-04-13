@@ -1,0 +1,23 @@
+04092013
+- implemented point collision detection for circle
+
+04082013
+- press key to unlink ball so it drops
+- delete ball when off screen
+- respawn ball at hand when removed
+- ball class no longer inherits from Attachment
+- moved ball class to ball.py
+- added ball gravity (x and y velocity)
+- added simple collision detection between ball and hoop and basket
+
+03202013
+- added transparency to images
+- made attachments able to utilize rects/shapes or images (or have invisible
+	ellipse over hoop for physics purposes)
+- split main.py into multiple files
+- implemented 'links' which are basically attachments to attachments
+- added offsetx and offsety values to attachments and links, so it is now
+	possible to attach things more freely
+
+03192013
+- the beginning
